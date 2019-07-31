@@ -1,0 +1,45 @@
+{
+  "name": "book-blog-backend-MERN-CA",
+  "version": "1.0.0",
+  "description": "Real World Application (A3-1);",
+  "main": "api.js",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "nodemon api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdematteo/book-blog-backend-MERN-CA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdematteo/book-blog-backend-MERN-CA/issues"
+  },
+  "homepage": "https://github.com/rdematteo/book-blog-backend-MERN-CA#readme",
+  "dependencies": {
+    "aws-sdk": "^2.494.0",
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.4",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.3.0",
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "now": "^15.7.0",
+    "supertest": "^4.0.2",
+    "dotenv": "^8.0.0"
+  },
+  "engines": {
+    "node": "^8 || ^10"
+  }
+}
